@@ -6,7 +6,7 @@ prev: cdn-links.html
 next: introducing-jsx.html
 ---
 
-The smallest React example looks like this:
+یہ React کی ایک مختصر مثال ہے:
 
 ```js
 ReactDOM.render(
@@ -15,14 +15,14 @@ ReactDOM.render(
 );
 ```
 
-It displays a heading saying "Hello, world!" on the page.
+یہ مثال صفہہ پر "Hello, world!" کی سرخی ظاہر کرتی ہے۔
 
 [](codepen://hello-world)
 
-Click the link above to open an online editor. Feel free to make some changes, and see how they affect the output. Most pages in this guide will have editable examples like this one.
+مندرجہ بالا لنک پر کلک کر کے آن لائن مدیر کھولئے۔ اس میں آپ کسی بھی قسم کی تبدیلی کر کے اس کا نتیجہ دیکھ سکتے ہیں۔ان دستاویزات کے زیادہ تر صفحات میں اسی طرح کی مثالیں ملیں گی۔
 
 
-## How to Read This Guide {#how-to-read-this-guide}
+## دستاویز پڑھنے کا طریقہ {#how-to-read-this-guide}
 
 In this guide, we will examine the building blocks of React apps: elements and components. Once you master them, you can create complex apps from small reusable pieces.
 
