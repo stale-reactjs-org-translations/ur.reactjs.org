@@ -47,7 +47,7 @@ class DocSearch extends Component<{}, State> {
 
           [media.lessThan('expandedSearch')]: {
             justifyContent: 'flex-end',
-            marginRight: 10,
+            marginLeft: 10,
           },
           // TODO: Something like this could show the full search box in more cases
           // but it currently breaks its expanding animation.
@@ -59,6 +59,7 @@ class DocSearch extends Component<{}, State> {
           },
         }}>
         <input
+          dir="rtl"
           css={{
             width: '100%',
             appearance: 'none',
@@ -69,12 +70,12 @@ class DocSearch extends Component<{}, State> {
             fontWeight: 300,
             fontFamily: 'inherit',
             position: 'relative',
-            padding: '4px 4px 4px 29px',
+            padding: '5px 29px 5px 5px',
             backgroundImage: 'url(/search.svg)',
             backgroundSize: '16px 16px',
             backgroundRepeat: 'no-repeat',
             backgroundPositionY: 'center',
-            backgroundPositionX: '4px',
+            backgroundPositionX: '98%',
 
             ':focus': {
               outline: 0,
@@ -86,10 +87,10 @@ class DocSearch extends Component<{}, State> {
               fontSize: 16,
               width: '16px',
               transition: 'width 0.2s ease, padding 0.2s ease',
-              paddingLeft: '16px',
+              paddingRight: '16px',
 
               ':focus': {
-                paddingLeft: '29px',
+                paddingRight: '29px',
                 width: '8rem',
                 outline: 'none',
               },

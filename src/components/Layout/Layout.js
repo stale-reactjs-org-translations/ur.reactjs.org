@@ -35,6 +35,7 @@ class Template extends Component<Props> {
 
     return (
       <div
+        dir="rtl"
         css={{
           display: 'flex',
           flexDirection: 'column',
