@@ -18,6 +18,7 @@ import logoSvg from 'icons/logo.svg';
 
 const Header = ({location}: {location: Location}) => (
   <header
+    dir="rtl"
     css={{
       backgroundColor: colors.darker,
       color: colors.white,
@@ -62,7 +63,6 @@ const Header = ({location}: {location: Location}) => (
             },
           }}
           to="/">
-          <img src={logoSvg} alt="" height="20" />
           <span
             css={{
               color: 'inherit',
@@ -88,6 +88,7 @@ const Header = ({location}: {location: Location}) => (
             }}>
             React
           </span>
+          <img src={logoSvg} alt="" height="20" />
         </Link>
 
         <nav
@@ -158,60 +159,6 @@ const Header = ({location}: {location: Location}) => (
             //width: 'calc(100% / 4)',
             //},
           }}>
-          <Link
-            css={{
-              padding: '5px 10px',
-              whiteSpace: 'nowrap',
-              ...fonts.small,
-
-              ':hover': {
-                color: colors.brand,
-              },
-
-              ':focus': {
-                outline: 0,
-                backgroundColor: colors.lighter,
-                borderRadius: 15,
-              },
-
-              [media.lessThan('medium')]: {
-                display: 'none',
-              },
-            }}
-            to="/versions">
-            v{version}
-          </Link>
-          <Link
-            css={{
-              display: 'flex',
-              alignItems: 'center',
-              padding: '5px 10px',
-              whiteSpace: 'nowrap',
-              ...fonts.small,
-
-              ':hover': {
-                color: colors.brand,
-              },
-
-              ':focus': {
-                outline: 0,
-                backgroundColor: colors.lighter,
-                borderRadius: 15,
-              },
-            }}
-            to="/languages">
-            <LanguagesIcon />{' '}
-            <span
-              css={{
-                marginLeft: '0.5rem',
-
-                [media.lessThan('medium')]: {
-                  display: 'none',
-                },
-              }}>
-              Languages
-            </span>
-          </Link>
           <a
             css={{
               padding: '5px 10px',
@@ -245,6 +192,55 @@ const Header = ({location}: {location: Location}) => (
               }}
             />
           </a>
+          <Link
+            css={{
+              display: 'flex',
+              alignItems: 'center',
+              padding: '5px 10px',
+              whiteSpace: 'nowrap',
+              ...fonts.small,
+
+              ':hover': {
+                color: colors.brand,
+              },
+
+              ':focus': {
+                outline: 0,
+                backgroundColor: colors.lighter,
+                borderRadius: 15,
+              },
+            }}
+            to="/languages">
+            <LanguagesIcon />{' '}
+            <span
+              css={{
+                marginLeft: '0.5rem',
+
+                [media.lessThan('medium')]: {
+                  display: 'none',
+                },
+              }}>
+              Languages
+            </span>
+          </Link>
+          <Link
+            css={{
+              padding: '5px 10px',
+              whiteSpace: 'nowrap',
+
+              ':hover': {
+                color: colors.brand,
+              },
+
+              ':focus': {
+                outline: 0,
+                backgroundColor: colors.lighter,
+                borderRadius: 15,
+              },
+            }}
+            to="/versions">
+            v{version}
+          </Link>
         </div>
       </div>
     </Container>

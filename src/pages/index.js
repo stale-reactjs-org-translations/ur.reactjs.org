@@ -53,7 +53,7 @@ class Home extends Component {
           title="React &ndash; A JavaScript library for building user interfaces"
           ogUrl={createOgUrl('index.html')}
         />
-        <div css={{width: '100%'}}>
+        <div dir="rtl" css={{width: '100%'}}>
           <header
             css={{
               backgroundColor: colors.dark,
@@ -200,23 +200,23 @@ class Home extends Component {
                         display: 'flex',
                         flexDirection: 'column',
                         flex: '0 1 33%',
-                        marginLeft: 40,
+                        marginRight: 40,
 
                         '&:first-of-type': {
-                          marginLeft: 0,
+                          marginRight: 0,
 
                           [media.lessThan('medium')]: {
-                            marginLeft: 10,
+                            marginRight: 10,
                           },
                         },
 
                         [media.lessThan('medium')]: {
                           display: 'inline-block',
                           verticalAlign: 'top',
-                          marginLeft: 0,
+                          marginRight: 0,
                           whiteSpace: 'normal',
                           width: '75%',
-                          marginRight: 20,
+                          marginLeft: 20,
                           paddingBottom: 40,
 
                           '&:first-of-type': {
@@ -326,13 +326,13 @@ const CtaItem = ({children, primary = false}) => (
       },
 
       [media.greaterThan('xlarge')]: {
-        paddingLeft: 40,
+        paddingRight: 40,
       },
 
       '&:first-child': {
-        textAlign: 'right',
+        textAlign: 'left',
         paddingRight: 7,
-        paddingLeft: 7,
+        paddingLeft: 15,
         [media.lessThan('small')]: {
           marginBottom: 10,
         },
@@ -342,7 +342,7 @@ const CtaItem = ({children, primary = false}) => (
         paddingRight: 7,
         paddingLeft: 7,
         [media.greaterThan('small')]: {
-          paddingLeft: 15,
+          paddingRight: 15,
         },
         [media.lessThan('small')]: {
           marginBottom: 10,
