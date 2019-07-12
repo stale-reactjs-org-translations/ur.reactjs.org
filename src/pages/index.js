@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="ری ایکٹ &ndash; یے جاوا اسکرپٹ کی لا ئبریری ھے جو یوزر انٹرفیسس بنانے میں کا م آ تی ھے"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div dir="rtl" css={{width: '100%'}}>
@@ -111,7 +111,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                    React
+                    ری ایکٹ
                   </h1>
                   <p
                     css={{
@@ -133,7 +133,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    یے جا و ا اسکرپٹ کی لا ئبریری ھے جو یوزر انٹرفیسس بنانے میں کا م آ تی ھے
                   </p>
                   <Flex
                     valign="center"
@@ -151,12 +151,12 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        Get Started
+                        شروع کریں
                       </ButtonLink>
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        Take the Tutorial
+                      سبق لے لو
                       </ButtonLink>
                     </CtaItem>
                   </Flex>
@@ -294,12 +294,12 @@ class Home extends Component {
                 }}>
                 <CtaItem>
                   <ButtonLink to="/docs/getting-started.html" type="primary">
-                    Get Started
+                  شروع کریں
                   </ButtonLink>
                 </CtaItem>
                 <CtaItem>
                   <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                    Take the Tutorial
+                  سبق لے لو
                   </ButtonLink>
                 </CtaItem>
               </Flex>
