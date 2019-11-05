@@ -1,6 +1,6 @@
 ---
 id: components-and-props
-title: Components and Props
+title: Props اجزاء اور 
 permalink: docs/components-and-props.html
 redirect_from:
   - "docs/reusable-components.html"
@@ -16,13 +16,13 @@ prev: rendering-elements.html
 next: state-and-lifecycle.html
 ---
 
-Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. This page provides an introduction to the idea of components. You can find a [detailed component API reference here](/docs/react-component.html).
+اجزاء آپ تقسیم دو UI آزاد، دوبارہ پریوست ٹکڑوں میں، اور تنہائی میں ہر ایک ٹکڑا کے بارے میں سوچتے ہیں. اس صفحہ اجزاء کے خیال کے لئے ایک تعارف فراہم کرتا ہے. آپ کو ایک حاصل کر سکتے ہیں [تفصیلی جزو API یہاں کا حوالہ](/docs/react-component.html).
 
-Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
+تصوراتی، اجزاء کی طرح ہیں JavaScript افعال. وہ من مانی آدانوں کو قبول ("props" کہا جاتا ہے (اور واپس React عناصر بیان کی سکرین پر کیا ظاہر ہونا چاہیے.
 
-## Function and Class Components {#function-and-class-components}
+##  Class  فنکشن اجزاء اور{#function-and-class-components}
 
-The simplest way to define a component is to write a JavaScript function:
+ایک جزو کی وضاحت کرنے کا آسان ترین طریقہ ایک لکھنے کے لئے ہے JavaScript فنکشن:
 
 ```js
 function Welcome(props) {
@@ -30,9 +30,9 @@ function Welcome(props) {
 }
 ```
 
-This function is a valid React component because it accepts a single "props" (which stands for properties) object argument with data and returns a React element. We call such components "function components" because they are literally JavaScript functions.
+یہ تقریب ایک درست جزو React یہ کسی ایک کو قبول کرتا ہے کیونکہ یہ ہے "props" (جس کی خصوصیات کے لئے کھڑا ہے) اعداد و شمار کے ساتھ اعتراض دلیل اور React عنصر. ہم اس طرح کے اجزاء "کی تقریب کے اجزاء" کہتے ہیں وہ لفظی ہیں کیونکہ JavaScript افعال.
 
-You can also use an [ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) to define a component:
+آپ یہ بھی ایک استعمال کر سکتے ہیں [ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) ایک جزو کی وضاحت کے لئے:
 
 ```js
 class Welcome extends React.Component {
@@ -42,27 +42,27 @@ class Welcome extends React.Component {
 }
 ```
 
-The above two components are equivalent from React's point of view.
+مندرجہ بالا دو اجزاء سے برابر ہیں React's نقطہ نظر.
 
-Classes have some additional features that we will discuss in the [next sections](/docs/state-and-lifecycle.html). Until then, we will use function components for their conciseness.
+Classes کہ ہم میں بات چیت کریں گے کچھ اضافی خصوصیات ہیں [اگلے حصوں](/docs/state-and-lifecycle.html). اس وقت تک، ہم ان کی conciseness لئے تقریب اجزاء استعمال کریں گے.
 
-## Rendering a Component {#rendering-a-component}
+## ایک جزو رینڈرینگ {#rendering-a-component}
 
-Previously, we only encountered React elements that represent DOM tags:
+ماضی میں، ہم صرف کا سامنا کرنا پڑا React کی نمائندگی کرتے ہیں کہ عناصر DOM ٹیگز:
 
 ```js
 const element = <div />;
 ```
 
-However, elements can also represent user-defined components:
+تاہم، عناصر بھی نمائندگی کر سکتے ہیں صارف کی وضاحت کے اجزاء:
 
 ```js
 const element = <Welcome name="Sara" />;
 ```
 
-When React sees an element representing a user-defined component, it passes JSX attributes to this component as a single object. We call this object "props".
+کب React ایک صارف کی وضاحت کے اتحادیوں کی نمائندگی ایک عنصر ہے، یہ گزر جاتا ہے دیکھتا ہے JSX ایک بھی اعتراض کے طور پر اس کے اتحادیوں کو ٹھہراتے ہیں. ہم اس اعتراض کو فون "props".
 
-For example, this code renders "Hello, Sara" on the page:
+مثال کے طور پر یہ کوڈ دیتا "Hello, Sara" صفحہ پر:
 
 ```js{1,5}
 function Welcome(props) {
@@ -78,24 +78,24 @@ ReactDOM.render(
 
 [](codepen://components-and-props/rendering-a-component)
 
-Let's recap what happens in this example:
+چلو recap ہے اس مثال میں کیا ہوتا ہے:
 
-1. We call `ReactDOM.render()` with the `<Welcome name="Sara" />` element.
-2. React calls the `Welcome` component with `{name: 'Sara'}` as the props.
-3. Our `Welcome` component returns a `<h1>Hello, Sara</h1>` element as the result.
-4. React DOM efficiently updates the DOM to match `<h1>Hello, Sara</h1>`.
+1. ہم پر کال کریں `ReactDOM.render()` کے ساتہ `<Welcome name="Sara" />` عنصر.
+2. React بلاتا ہے `Welcome` ساتھ جزو `{name: 'Sara'}` کے طور پر props.
+3. ہمارا `Welcome` جزو ریٹرن ایک `<h1>Hello, Sara</h1>` نتیجے کے طور پر عنصر.
+4. React DOM مؤثر طریقے سے اپ ڈیٹ DOM ملانا `<h1>Hello, Sara</h1>`.
 
->**Note:** Always start component names with a capital letter.
+>**Note:** ہمیشہ ایک سرمایہ خط کے ساتھ جزو ناموں کرنا شروع کریں.
 >
->React treats components starting with lowercase letters as DOM tags. For example, `<div />` represents an HTML div tag, but `<Welcome />` represents a component and requires `Welcome` to be in scope.
+>React کے طور پر چھوٹے حروف سے شروع ہونے کا علاج کرتا ہے کے اجزاء DOM ٹیگز. مثال کے طور پر، `<div />` کی نمائندگی کرتا ہے ایک HTML div ٹیگ، لیکن `<Welcome />` ایک جزو کی نمائندگی کرتا ہے اور کی ضرورت ہوتی ہے `Welcome` دائرہ کار میں ہونا.
 >
->To learn more about the reasoning behind this convention, please read [JSX In Depth](/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized).
+>اس کنونشن کے فلسفه کے بارے میں مزید جاننے کے لئے، براہ مہربانی پڑھیں [JSX گہرائی میں](/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized).
 
-## Composing Components {#composing-components}
+## کمپوز اجزاء {#composing-components}
 
-Components can refer to other components in their output. This lets us use the same component abstraction for any level of detail. A button, a form, a dialog, a screen: in React apps, all those are commonly expressed as components.
+اجزاء کو ان کی پیداوار میں دوسرے اجزاء سے رجوع کر سکتے ہیں. یہ ہمیں تفصیل کے کسی بھی سطح کے لئے ایک ہی جزو تجرید کو استعمال کرنے دیتا ہے. ایک بٹن، ایک فارم، ایک ڈائیلاگ، ایک سکرین: میں React اطلاقات، ان تمام لوگوں کو عام طور پر اجزاء کے طور پر اظہار کر رہے ہیں.
 
-For example, we can create an `App` component that renders `Welcome` many times:
+مثلا، ہم ایک بنا سکتے ہیں `App` دیتا ہے کہ جزو `Welcome`بہت دفعہ:
 
 ```js{8-10}
 function Welcome(props) {
@@ -120,13 +120,13 @@ ReactDOM.render(
 
 [](codepen://components-and-props/composing-components)
 
-Typically, new React apps have a single `App` component at the very top. However, if you integrate React into an existing app, you might start bottom-up with a small component like `Button` and gradually work your way to the top of the view hierarchy.
+عام طور پر، نئے React ایپس سب سے اوپر پر ایک واحد `App` جزو ہے. تاہم، اگر آپ کو ایک موجودہ اے پی پی میں رد عمل کا اظہار ضم تو، آپ کو نیچے سے اوپر `طرح Button` ایک چھوٹا سا جزو کے ساتھ شروع کر سکتے ہیں اور آہستہ آہستہ نقطہ نظر تنظیمی ڈھانچے کے سب کو اپنے راستے کام کرتے ہیں.
 
-## Extracting Components {#extracting-components}
+## نکالنے اجزاء {#extracting-components}
 
-Don't be afraid to split components into smaller components.
+چھوٹے اجزاء میں اجزاء کو تقسیم کرنے کے لئے خوف زدہ نہیں ہو.
 
-For example, consider this `Comment` component:
+مثال کے طور پر اس پر غور `Comment` اجزاء:
 
 ```js
 function Comment(props) {
@@ -154,11 +154,12 @@ function Comment(props) {
 
 [](codepen://components-and-props/extracting-components)
 
-It accepts `author` (an object), `text` (a string), and `date` (a date) as props, and describes a comment on a social media website.
+اس کو قبول کرتا ہے `author` (ایک چیز), `text` (ایک تار), `date` (ایک تاریخ)
+جیسے props, اور کسی سوشل میڈیا ویب سائٹ پر ایک تبصرہ وضاحت.
 
-This component can be tricky to change because of all the nesting, and it is also hard to reuse individual parts of it. Let's extract a few components from it.
+یہ جزو کیونکہ تمام گھوںسلا کے تبدیل کرنے کے لئے مشکل ہو سکتا ہے، اور یہ اس کا انفرادی حصوں کو دوبارہ استعمال کرنے کے لئے بھی مشکل ہے. چلو اس سے چند اجزاء کو نکالنے دیں.
 
-First, we will extract `Avatar`:
+سب سے پہلے، ہم نکالیں گے `Avatar`:
 
 ```js{3-6}
 function Avatar(props) {
@@ -171,11 +172,11 @@ function Avatar(props) {
 }
 ```
 
-The `Avatar` doesn't need to know that it is being rendered inside a `Comment`. This is why we have given its prop a more generic name: `user` rather than `author`.
+ال `Avatar` جاننا یہ ایک اندر مہیا کی جا رہی ہے کہ ضرورت نہیں ہے `Comment`. ہم کیوں دیا ہے یہ ہے اس کی prop ایک سے زیادہ عام نام: `user` بجائے اس کے `author`.
 
-We recommend naming props from the component's own point of view rather than the context in which it is being used.
+ہم نام دینے کی سفارش کرتے ہیں props from the قول کے جزو کے اپنے نقطہ کی بجائے جس میں اس کا استعمال کیا جا رہا ہے تناظر.
 
-We can now simplify `Comment` a tiny bit:
+اب ہم کو آسان بنانے کے کر سکتے ہیں `Comment` ایک چھوٹے سا:
 
 ```js{5}
 function Comment(props) {
@@ -198,7 +199,7 @@ function Comment(props) {
 }
 ```
 
-Next, we will extract a `UserInfo` component that renders an `Avatar` next to the user's name:
+اگلا، ہم نے ایک کو ہٹا دیں گے `UserInfo` ایک دیتا ہے کہ جزو `Avatar` صارف کے نام کے آگے:
 
 ```js{3-8}
 function UserInfo(props) {
@@ -213,7 +214,7 @@ function UserInfo(props) {
 }
 ```
 
-This lets us simplify `Comment` even further:
+اس سے ہمیں اجازت دیتا ہے آسان `Comment` آگے مزید:
 
 ```js{4}
 function Comment(props) {
@@ -233,11 +234,11 @@ function Comment(props) {
 
 [](codepen://components-and-props/extracting-components-continued)
 
-Extracting components might seem like grunt work at first, but having a palette of reusable components pays off in larger apps. A good rule of thumb is that if a part of your UI is used several times (`Button`, `Panel`, `Avatar`), or is complex enough on its own (`App`, `FeedStory`, `Comment`), it is a good candidate to be a reusable component.
+اجزاء کو نکالنے سکتا ہے سب سے پہلے میں گھرگھر کام کی طرح لگتا ہے، لیکن دوبارہ پریوست اجزاء کی ایک پیلٹ بڑے اطلاقات میں بند کر دیتا تعلق. انگوٹھے کی ایک اچھی حکمرانی ہے تو کا ایک حصہ آپ UI کئی بار استعمال کیا جاتا ہے (`Button`, `Panel`, `Avatar`), یا اپنے طور پر پیچیدہ کافی ہے (`App`, `FeedStory`, `Comment`), یہ ایک دوبارہ پریوست اتحادی ہونے کے لئے ایک اچھا امیدوار ہیں.
 
-## Props are Read-Only {#props-are-read-only}
+## Props ہیں صرف پڑھنے کیلئے {#props-are-read-only}
 
-Whether you declare a component [as a function or a class](#function-and-class-components), it must never modify its own props. Consider this `sum` function:
+آپ ایک جزو اعلان چاہے [ایک تقریب یا ایک کے طور پر class](#function-and-class-components), یہ اس کی اپنی نظر ثانی کبھی نہیں کرنا چاہیے props. اس پر غور `sum` فنکشن:
 
 ```js
 function sum(a, b) {
@@ -245,9 +246,9 @@ function sum(a, b) {
 }
 ```
 
-Such functions are called ["pure"](https://en.wikipedia.org/wiki/Pure_function) because they do not attempt to change their inputs, and always return the same result for the same inputs.
+اس طرح کے افعال کو کہا جاتا ہے ["خالص"](https://en.wikipedia.org/wiki/Pure_function) وہ ان کے آدانوں تبدیل، اور ہمیشہ ایک ہی آدانوں کے لئے ایک ہی نتیجہ کے واپس کرنے کی کوشش نہیں کرتے.
 
-In contrast, this function is impure because it changes its own input:
+یہ اس کی اپنی ان پٹ کو تبدیل کر، کیونکہ اس کے برعکس، اس تقریب نجس ہے:
 
 ```js
 function withdraw(account, amount) {
@@ -255,8 +256,8 @@ function withdraw(account, amount) {
 }
 ```
 
-React is pretty flexible but it has a single strict rule:
+React بہت لچکدار ہے لیکن یہ ایک واحد سخت حکمرانی ہے:
 
-**All React components must act like pure functions with respect to their props.**
+**سب React اجزاء کے لئے احترام کے ساتھ خالص افعال کی طرح سلوک کرنا چاہیے ان props.**
 
-Of course, application UIs are dynamic and change over time. In the [next section](/docs/state-and-lifecycle.html), we will introduce a new concept of "state". State allows React components to change their output over time in response to user actions, network responses, and anything else, without violating this rule.
+کورس کے، درخواست UIs وقت کے ساتھ متحرک اور تبدیلی ہے. میں [next section](/docs/state-and-lifecycle.html), ہم کے ایک نئے تصور متعارف کرائے گا "state". State اجازت دیتا ہے React اجزاء اس اصول کی خلاف ورزی کے بغیر صارف کی کارروائیوں، نیٹ ورک کے جوابات، اور کچھ اور کے جواب میں وقت کے ساتھ ساتھ ان کی پیداوار کو تبدیل کرنے کی.
