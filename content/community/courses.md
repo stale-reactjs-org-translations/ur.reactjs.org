@@ -1,51 +1,57 @@
 ---
 id: courses
-title: Courses
+title: نصاب
 layout: community
 sectionid: community
 permalink: community/courses.html
 ---
 
-## Free Courses {#free-courses}
+## مفت نصاب {#free-courses}
 
-- [Glitch: React Starter Kit](https://glitch.com/glimmer/post/react-starter-kit/) - A free, 5-part video course with interactive code examples that will help you learn React.
+- [Glitch: React Starter Kit](https://glitch.com/glimmer/post/react-starter-kit/) -سیکھنے میں مدد فراہم کرے گا React ا نٹرایکٹو کوڈ مثالوں کے ساتھ بلکل مفت ، 5 حصے کا ویڈیو کورس جو آپ کو 
+۔
+- [Codecademy: React 101](https://www.codecademy.com/learn/react-101) - کے لئے تعارفی کورس React کا  Codecademy.
 
-- [Codecademy: React 101](https://www.codecademy.com/learn/react-101) - Codecademy's introductory course for React.
+- [Egghead.io: سیکھنا شروع کریں React](https://egghead.io/courses/start-learning-react) - لائبریری کی بنیادی باتیں سکھائے گا React یہ سبق آموز سلسلہ آپ کو 
 
-- [Egghead.io: Start Learning React](https://egghead.io/courses/start-learning-react) - This series will explore the basic fundamentals of React to get you started.
+- [خصوصی تربیتی کورس 2018 React](https://www.youtube.com/watch?v=Ke90Tje7VS0) - لائبریری کے انتہائی اہم موضوعات کی وضاحت کرنے والے ابتدائیہ افراد کے لئے ایک خصوصی تربیتی کورس React.
 
-- [React Crash Course 2018](https://www.youtube.com/watch?v=Ke90Tje7VS0) - A beginner-friendly crash course through the most important React topics.
+- [کے وسائل React:سیکھیں React خود سے](https://reactarmory.com/guides/learn-react-by-itself) -سیکھ سکتے ہیں React کے وسائل کے ساتھ ، آپ رمزيہ الفاظ  کے بغیر React  
 
-- [React Armory: Learn React by Itself](https://reactarmory.com/guides/learn-react-by-itself) - With React Armory, you can learn React without the buzzwords.
 
-- [Egghead.io: The Beginner's Guide to ReactJS](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) - Free course for React newbies and those looking to get a better understanding of React fundamentals.
+- [Egghead.io: کے لئے ابتدائی رہنما React](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) -کے بنیادی اصولوں کی بہتر تفہیم حاصل کرنے کے خواہاں افراد کے لئے مفت کورس React کے نئے طلباء اور  React
 
-- [Free React Bootcamp](https://tylermcginnis.com/free-react-bootcamp/) - Recordings from three days of a free online React bootcamp.
+- [کا مفت تربیتی کیمپ React](https://tylermcginnis.com/free-react-bootcamp/) - .کے مفت تربیتی کیمپ کی تین دن کی مفت آن لائن ریکارڈنگ React
 
-- [Scrimba: Learn React for free](https://scrimba.com/g/glearnreact) - 48 hands-on video tutorials building react apps.
+- [Scrimba: مفت میں سیکھیں React](https://scrimba.com/g/glearnreact) - .کی تعمیر میں 48 ویڈیو سبق React app
 
-## Paid Courses {#paid-courses}
+## ادا کردہ سبق {#paid-courses}
 
-- [Egghead.io](https://egghead.io/browse/frameworks/react) - Short instructional videos on React and many other topics.
+- [Egghead.io](https://egghead.io/browse/frameworks/react) - .اور بہت سے دوسرے عنوانات پر مختصر تدریسی ویڈیوز React
 
-- [Frontend Masters](https://frontendmasters.com/courses/) - Video courses on React and other frontend frameworks.
+- [Frontend Masters](https://frontendmasters.com/courses/) -  .فریم ورک کو سیکھنے کے لئے ویڈیو کورسز کی تربیت کرنا frontend لائبریری اور دیگر REACT
 
-- [Fullstack React](https://www.fullstackreact.com/) - The up-to-date, in-depth, complete guide to React and friends.
+- [Fullstack React](https://www.fullstackreact.com/) -  .دستیاب ھے React تازہ ترین ، گہرائی میں ، مکمل رہنمای
 
-- [Pure React](https://daveceddia.com/pure-react/) - A step-by-step guide to mastering React.
 
-- [React for Beginners](https://reactforbeginners.com/) - Learn React in just a couple of afternoons.
+- [React خالص](https://daveceddia.com/pure-react/) -  .میں مہارت حاصل کرنے کے لئے ایک قدم بہ قدم رہنما React
 
-- [React for Designers](https://designcode.io/react) - A 6-hour React course for designers, by designers.
+- [ابتدائی لوگوں کے لئے React](https://reactforbeginners.com/) -  .سیکھیں React صرف چند  دن میں
 
-- [React Essentials for Designers](https://learnreact.design) - React courses tailored for designers: the fundamentals, capabilities, limitations and how they relate to design.
+- [React for Designers](https://designcode.io/react) - .کا کورس React  ڈیزائنرز کے ذریعہ ، ڈیزائنرز کے لئے 6 گھنٹے
 
-- [Essential React](https://learnreact.com/lessons/2018-essential-react-1-overview) - A crash course for doers, moving fast from "Hello World" to advanced component composition.
+- [ کے لیے Designers کی ضروریات  React](https://learnreact.design) - ڈیزائنرز کے لئے تیار کردہ کورسز: بنیادی اصول ، قابلیت ، حدود اور ان کا ڈیزائن سے کس طرح تعلق ہے React
 
-- [React Training: Advanced React.js](https://courses.reacttraining.com/p/advanced-react) - Take your React skills to the next level.
 
-- [Tyler McGinnis](https://tylermcginnis.com/courses) - Tyler McGinnis provides access to his courses for a monthly fee. Courses include "React Fundamentals" and "Universal React".
+- [React ضروری](https://learnreact.com/lessons/2018-essential-react-1-overview) - کوڈ لکھ کر سیکھنا پسند کرنے والوں کے لئے ایک تعلیمی نصاب ، یہ کورس انہیں جلدی سیکھنے اور جدید ترین درخواستیں بنانے کے قابل بنائے گا
 
-- [Mastering React](https://codewithmosh.com/p/mastering-react/) - Build professional interactive apps with React.
 
-- [Road to React](https://www.roadtoreact.com/) - Your journey to master React in JavaScript.
+- [React Training: Advanced React.js](https://courses.reacttraining.com/p/advanced-react) - میں اپنی صلاحیتوں کو ترقی دیں React
+
+- [Tyler McGinnis](https://tylermcginnis.com/courses) - ٹیلر میک گینس کے ساتھ سیکھیں ، جو ماہانہ تربیتی سیشن پیش کرتا ہے۔ ان کورسز میں بنیادی باتیں سیکھنا بھی شامل ہے
+
+
+- [میں کمال حاصل کریں React](https://codewithmosh.com/p/mastering-react/) -  لائبریری کے ساتھ انٹرایکٹو ایپلی کیشنز بنائیں React
+
+- [تک کا راستا React](https://www.roadtoreact.com/) -  میں عبور حاصل کرنے کے لئے آپ کا سفر۔ React جاوا اسکرپٹ کا استعمال کرکے
+
