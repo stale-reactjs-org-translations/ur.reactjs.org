@@ -12,7 +12,7 @@ permalink: community/courses.html
 ۔
 - [Codecademy: React 101](https://www.codecademy.com/learn/react-101) - کے لئے تعارفی کورس React کا  Codecademy.
 
-- [Egghead.io: سیکھنا شروع کریں React](https://egghead.io/courses/start-learning-react) - لائبریری کی بنیادی باتیں سکھائے گا React یہ سبق آموز سلسلہ آپ کو 
+- [Egghead.io:React سیکھنا شروع کریں ](https://egghead.io/courses/start-learning-react) - لائبریری کی بنیادی باتیں سکھائے گا React یہ سبق آموز سلسلہ آپ کو 
 
 - [خصوصی تربیتی کورس 2018 React](https://www.youtube.com/watch?v=Ke90Tje7VS0) - لائبریری کے انتہائی اہم موضوعات کی وضاحت کرنے والے ابتدائیہ افراد کے لئے ایک خصوصی تربیتی کورس React.
 
