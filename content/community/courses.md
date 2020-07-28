@@ -8,50 +8,50 @@ permalink: community/courses.html
 
 ## مفت نصاب {#free-courses}
 
-- [Glitch: React Starter Kit](https://glitch.com/glimmer/post/react-starter-kit/) -سیکھنے میں مدد فراہم کرے گا React ا نٹرایکٹو کوڈ مثالوں کے ساتھ بلکل مفت ، 5 حصے کا ویڈیو کورس جو آپ کو 
-۔
-- [Codecademy: React 101](https://www.codecademy.com/learn/react-101) - کے لئے تعارفی کورس React کا  Codecademy.
+- [Glitch: React Starter Kit](https://glitch.com/glimmer/post/react-starter-kit/) - انٹرایکٹو کود مثالوں کے ساتھ بالکل مفت، ۵ ھصے کا ویڈیو کورس جو آپ کو ری ایکٹ(React) سیکھنے میں مدد فراہم کرے گا ۔
 
-- [Egghead.io:React سیکھنا شروع کریں ](https://egghead.io/courses/start-learning-react) - لائبریری کی بنیادی باتیں سکھائے گا React یہ سبق آموز سلسلہ آپ کو 
+- [Codecademy: React 101](https://www.codecademy.com/learn/react-101) - کوڈ اکیڈمی کا ری ایکٹ (React) کے لیے تعارفی کورس ۔
 
-- [خصوصی تربیتی کورس 2018 React](https://www.youtube.com/watch?v=Ke90Tje7VS0) - لائبریری کے انتہائی اہم موضوعات کی وضاحت کرنے والے ابتدائیہ افراد کے لئے ایک خصوصی تربیتی کورس React.
+- [Egghead.io:ری ایکٹ(React) سیکھنا شروع کریں](https://egghead.io/courses/start-learning-react) - یہ سبق آموز سلسلہ آپ کو React  لائبریری کی بنیادی باتیں سکھائے گا ۔  
 
-- [کے وسائل React:سیکھیں React خود سے](https://reactarmory.com/guides/learn-react-by-itself) -سیکھ سکتے ہیں React کے وسائل کے ساتھ ، آپ رمزيہ الفاظ  کے بغیر React  
+- [ری ایکٹ(React) خصوصی تربیتی کورس 2018](https://www.youtube.com/watch?v=Ke90Tje7VS0) - ری ایکٹ(React) لائبریری کے انتہائی اہم موضوعات کی وضاحت کرنے والے ابتدائیہ افراد کے لئے ایک خصوصی تربیتی کورس ۔
+
+- [خود سے ری ایکٹ(React) سیکھیں: ری ایکٹ(React) کے وسائل](https://reactarmory.com/guides/learn-react-by-itself) - ری ایکٹ(React) کے وسائل کے ساتھ ، آپ رمزيہ الفاظ  کے بغیر ری ایکٹ (React) سیکھ سکتے ہیں ۔ 
 
 
-- [Egghead.io: کے لئے ابتدائی رہنما React](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) -کے بنیادی اصولوں کی بہتر تفہیم حاصل کرنے کے خواہاں افراد کے لئے مفت کورس React کے نئے طلباء اور  React
+- [Egghead.io: ابتدائی ری ایکٹ(React) کے لئے رہنمای ](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) - ری ایکٹ(React) کے نئے طلباء اور ری ایکٹ (React) کے بنیادی اصولوں کی بہتر تفہیم حاصل کرنے کے خواہاں افراد کے لئے مفت کورس ۔
 
-- [کا مفت تربیتی کیمپ React](https://tylermcginnis.com/free-react-bootcamp/) - .کے مفت تربیتی کیمپ کی تین دن کی مفت آن لائن ریکارڈنگ React
+- [ری ایکٹ(React) کا مفت تربیتی کیمپ](https://tylermcginnis.com/free-react-bootcamp/) - ری ایکٹ(React) کے مفت تربیتی کیمپ کی تین دن کی مفت آن لائن ریکارڈنگ ۔
 
-- [Scrimba: مفت میں سیکھیں React](https://scrimba.com/g/glearnreact) - .کی تعمیر میں 48 ویڈیو سبق React app
+- [Scrimba:مفت میں ری ایکٹ(React) سیکھیں ۔](https://scrimba.com/g/glearnreact) - ری ایکٹ(React) app کی تعمیر میں 48 ویڈیو سبق ۔
 
 ## ادا کردہ سبق {#paid-courses}
 
-- [Egghead.io](https://egghead.io/browse/frameworks/react) - .اور بہت سے دوسرے عنوانات پر مختصر تدریسی ویڈیوز React
-
-- [Frontend Masters](https://frontendmasters.com/courses/) -  .فریم ورک کو سیکھنے کے لئے ویڈیو کورسز کی تربیت کرنا frontend لائبریری اور دیگر REACT
-
-- [Fullstack React](https://www.fullstackreact.com/) -  .دستیاب ھے React تازہ ترین ، گہرائی میں ، مکمل رہنمای
+- [Egghead.io](https://egghead.io/browse/frameworks/react) - ری ایکٹ(React) اور بہت سے دوسرے عنوانات پر مختصر تدریسی ویڈیوز ۔
 
 
-- [React خالص](https://daveceddia.com/pure-react/) -  .میں مہارت حاصل کرنے کے لئے ایک قدم بہ قدم رہنما React
+- [Frontend Masters](https://frontendmasters.com/courses/) - ری ایکٹ(React) لائبریری اور دیگر frontend فریم ورک کو سیکھنے کے لئے ویڈیو کورسز کی تربیت کرنا ۔
 
-- [ابتدائی لوگوں کے لئے React](https://reactforbeginners.com/) -  .سیکھیں React صرف چند  دن میں
+- [Fullstack React](https://www.fullstackreact.com/) - تازہ ترین ، گہرائی میں ، مکمل رہنمای کے ساتھ ری ایکٹ(React) دستیاب ھے ۔
 
-- [React for Designers](https://designcode.io/react) - .کا کورس React  ڈیزائنرز کے ذریعہ ، ڈیزائنرز کے لئے 6 گھنٹے
+- [خالص ری ایکٹ(React)](https://daveceddia.com/pure-react/) - ری ایکٹ(React) میں مہارت حاصل کرنے کے لئے ایک قدم بہ قدم رہنما ۔
 
-- [ کے لیے Designers کی ضروریات  React](https://learnreact.design) - ڈیزائنرز کے لئے تیار کردہ کورسز: بنیادی اصول ، قابلیت ، حدود اور ان کا ڈیزائن سے کس طرح تعلق ہے React
+- [ری ایکٹ(React) ابتدائی لوکوں کے لئے](https://reactforbeginners.com/) - صرف چند دن میں ری ایکٹ(React) سیکھین ۔
+
+- [ری ایکٹ(React) ڈیزائنرز کے لیئے](https://designcode.io/react) - ری ایکٹ (React) کا 6 گھنٹے کا کورس ڈیزائنرز کے ذریعہ ، ڈیزائنرز کے لئے۔
+
+- [ری ایکٹ(React) کی ضروریات ڈیزائنرز کے لیے](https://learnreact.design) - ری ایکٹ(React)
+ ڈیزائنرز کے لئے تیار کردہ کورسز: بنیادی اصول ، قابلیت ، حدود اور ان کا ڈیزائن سے کس طرح تعلق ہے ۔
+
+- [React ضروری](https://learnreact.com/lessons/2018-essential-react-1-overview) - کوڈ لکھ کر سیکھنا پسند کرنے والوں کے لئے ایک تعلیمی نصاب ، یہ کورس انہیں جلدی سیکھنے اور جدید ترین ایپلیکیشنز بنانے کے قابل بنائے گا ۔
 
 
-- [React ضروری](https://learnreact.com/lessons/2018-essential-react-1-overview) - کوڈ لکھ کر سیکھنا پسند کرنے والوں کے لئے ایک تعلیمی نصاب ، یہ کورس انہیں جلدی سیکھنے اور جدید ترین ایپلیکیشنز بنانے کے قابل بنائے گا
+- [React Training: Advanced React.js](https://courses.reacttraining.com/p/advanced-react) - ری ایکٹ(React) میں اپنی صلاحیتوں کو ترقی دیں ۔
 
+- [Tyler McGinnis](https://tylermcginnis.com/courses) - ٹیلر میک گینس کے ساتھ سیکھیں ، جو ماہانہ تربیتی سیشن پیش کرتا ہے۔ ان کورسز میں بنیادی باتیں سیکھنا بھی  شامل ہے ۔
 
-- [React Training: Advanced React.js](https://courses.reacttraining.com/p/advanced-react) - میں اپنی صلاحیتوں کو ترقی دیں React
+- [ری ایکٹ(React) میں کمال حاصل کریں](https://codewithmosh.com/p/mastering-react/) - ری ایکٹ(React) لائبریری کے ساتھ انٹرایکٹو ایپلی کیشنز بنائیں ۔
 
-- [Tyler McGinnis](https://tylermcginnis.com/courses) - ٹیلر میک گینس کے ساتھ سیکھیں ، جو ماہانہ تربیتی سیشن پیش کرتا ہے۔ ان کورسز میں بنیادی باتیں سیکھنا بھی شامل ہے
+- [ری ایکٹ(React) تک کا راستا](https://www.roadtoreact.com/) - ری ایکٹ(React) میں عبور حاصل کرنے کے لیے آپ کا سفر ۔
 
-
-- [میں کمال حاصل کریں React](https://codewithmosh.com/p/mastering-react/) -  لائبریری کے ساتھ انٹرایکٹو ایپلی کیشنز بنائیں React
-
-- [تک کا راستا React](https://www.roadtoreact.com/) -  میں عبور حاصل کرنے کے لئے آپ کا سفر۔ React جاوا اسکرپٹ کا استعمال کرکے
 
