@@ -43,7 +43,7 @@ permalink: community/courses.html
 - [ری ایکٹ(React) کی ضروریات ڈیزائنرز کے لیے](https://learnreact.design) - ری ایکٹ(React)
  ڈیزائنرز کے لئے تیار کردہ کورسز: بنیادی اصول ، قابلیت ، حدود اور ان کا ڈیزائن سے کس طرح تعلق ہے ۔
 
-- [React ضروری](https://learnreact.com/lessons/2018-essential-react-1-overview) - کوڈ لکھ کر سیکھنا پسند کرنے والوں کے لئے ایک تعلیمی نصاب ، یہ کورس انہیں جلدی سیکھنے اور جدید ترین ایپلیکیشنز بنانے کے قابل بنائے گا ۔
+- [React کے اہم مضامین ](https://learnreact.com/lessons/2018-essential-react-1-overview) - کوڈ لکھ کر سیکھنا پسند کرنے والوں کے لئے ایک تعلیمی نصاب ، یہ کورس انہیں جلدی سیکھنے اور جدید ترین ایپلیکیشنز بنانے کے قابل بنائے گا ۔
 
 
 - [React Training: Advanced React.js](https://courses.reacttraining.com/p/advanced-react) - ری ایکٹ(React) میں اپنی صلاحیتوں کو ترقی دیں ۔
