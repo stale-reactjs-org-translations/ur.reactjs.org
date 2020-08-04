@@ -54,7 +54,7 @@ function ActionLink() {
 }
 ```
 
-`e` یہاں پر ایک synthethic event ہے، ان synthetic events کو React [W3C spec](https://www.w3.org/TR/DOM-Level-3-Events/) کو مدنظر رکھتے ہوئے بنایا ہے لہٰذا یہ مختلف براوزروں کے درمیان مطابقت رکھتے ہیں ۔ اس موضوع پہ مزید معلومات حاصل کرنے کے لیے [`SyntheticEvent`](/docs/events.html) سے منسوب گائیڈ کو ملاحظہ فرمائیں
+`e` یہاں پر ایک synthethic event ہے، ان synthetic events کو React نے [W3C spec](https://www.w3.org/TR/DOM-Level-3-Events/) کو مدنظر رکھتے ہوئے بنایا ہے لہٰذا یہ مختلف براوزروں کے درمیان مطابقت رکھتے ہیں ۔ اس موضوع پہ مزید معلومات حاصل کرنے کے لیے [`SyntheticEvent`](/docs/events.html) سے منسوب گائیڈ کو ملاحظہ فرمائیں
 
 React میں عموماً DOM کے عناصر پر listeners جوڑنے کے لیے `addEventListener` استعمال نہیں کرنا پڑتا، یہ کافی ہے کہ جب عناصر render ہو تب آپ listener فراہم کر دیں
 
