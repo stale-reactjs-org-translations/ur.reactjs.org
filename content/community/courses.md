@@ -8,6 +8,7 @@ permalink: community/courses.html
 
 ## مفت نصاب {#free-courses}
 
+
 - [Glitch: React Starter Kit](https://glitch.com/glimmer/post/react-starter-kit/) - متعامل کوڈ کی مثالوں کے ساتھ ۵ حصوں پر مبنی ایک مفت ویڈیو کورس جوآپ کو React سیکھنے میں مدد دے گا۔
 
 - [Codecademy: React 101](https://www.codecademy.com/learn/react-101) - کوڈ اکیڈمی کا ری ایکٹ (React) کے لیے تعارفی کورس ۔
@@ -53,5 +54,4 @@ permalink: community/courses.html
 - [Mastering React](https://codewithmosh.com/p/mastering-react/) - ری ایکٹ(React) لائبریری کے ساتھ انٹرایکٹو ایپلی کیشنز بنائیں ۔
 
 - [Road to React](https://www.roadtoreact.com/) - ری ایکٹ(React) میں عبور حاصل کرنے کے لیے آپ کا سفر ۔
-
 
