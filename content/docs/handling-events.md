@@ -58,7 +58,7 @@ function ActionLink() {
 
 React میں عموماً DOM کے عناصر پر listeners جوڑنے کے لیے `addEventListener` استعمال نہیں کرنا پڑتا، یہ کافی ہے کہ جب عناصر render ہو تب آپ listener فراہم کر دیں
 
-جب آپ [ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) کا استعمال کرتے ہوئے جزو بناتے ہیں تو ایک آم طریقہ کار یہ ہے کہ event handler کو اس class کا طریقہ (method) بنا دیا جائے ۔ مثال کے طور پر یہ `Toggle` جزو ایک بٹن render کر رہا ہے جس سے ایک صارف "ON" اور "OFF" states کے درمیان ٹوگل کر سکتا ہے
+جب آپ [ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) کا استعمال کرتے ہوئے جزو بناتے ہیں تو ایک عام طریقہ کار یہ ہے کہ event handler کو اس class کا طریقہ (method) بنا دیا جائے ۔ مثال کے طور پر یہ `Toggle` جزو ایک بٹن render کر رہا ہے جس سے ایک صارف "ON" اور "OFF" states کے درمیان ٹوگل کر سکتا ہے
 
 ```js{6,7,10-14,18}
 class Toggle extends React.Component {
@@ -142,7 +142,7 @@ class LoggingButton extends React.Component {
 
 ## Event Handlers میں arguments فراہم کرنا {#passing-arguments-to-event-handlers}
 
-Loop کے اندر event handler میں ایک اضافی parameter فراہم کرنا ایک آم عمل ہے، مثلاً اگر `id` کو  row ID سے نسبت دی جائے تو ان میں سے کوئی بھی طریقہ استعمال میں لایا جا سکتا ہے
+Loop کے اندر event handler میں ایک اضافی parameter فراہم کرنا ایک عام عمل ہے، مثلاً اگر `id` کو  row ID سے نسبت دی جائے تو ان میں سے کوئی بھی طریقہ استعمال میں لایا جا سکتا ہے
 
 ```js
 <button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
