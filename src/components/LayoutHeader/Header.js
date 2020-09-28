@@ -5,6 +5,7 @@
  * @flow
  */
 
+import Banner from 'components/Banner';
 import Container from 'components/Container';
 import HeaderLink from './HeaderLink';
 import {Link} from 'gatsby';
@@ -237,6 +238,9 @@ const Header = ({location}: {location: Location}) => (
           </Link>
         </div>
       </div>
+    </Container>
+    <Container>
+      <Banner />
     </Container>
   </header>
 );
