@@ -29,27 +29,31 @@ React میں یوں لکھا جائے گا
 </button>
 ```
 
+<<<<<<< HEAD
 React  میں Events کا پہلے سے طے شدہ ردعمل بدلنے کے لئے return `false` کرنا کافی نہیں، آپ کو واضح طور پر `preventDefault` کا استعمال کرنا پڑے گا ۔ مثال کے طور پر ایک HTML link کا طے شدہ ردعمل ایک نیا صفحہ کھولتا ہے، جس کو آپ کچھ یوں تبدیل کر سکتے ہیں
+=======
+Another difference is that you cannot return `false` to prevent default behavior in React. You must call `preventDefault` explicitly. For example, with plain HTML, to prevent the default form behavior of submitting, you can write:
+>>>>>>> ec2d0adcb44d6394f4e6282d8bf52f0e25dbfec3
 
 ```html
-<a href="#" onclick="console.log('The link was clicked.'); return false">
-  Click me
-</a>
+<form onsubmit="console.log('You clicked submit.'); return false">
+  <button type="submit">Submit</button>
+</form>
 ```
 
 وہیں React میں یہ یوں لکھا جا سکتا ہے
 
-```js{2-5,8}
-function ActionLink() {
-  function handleClick(e) {
+```js{3}
+function Form() {
+  function handleSubmit(e) {
     e.preventDefault();
-    console.log('The link was clicked.');
+    console.log('You clicked submit.');
   }
 
   return (
-    <a href="#" onClick={handleClick}>
-      Click me
-    </a>
+    <form onSubmit={handleSubmit}>
+      <button type="submit">Submit</button>
+    </form>
   );
 }
 ```
@@ -71,8 +75,8 @@ class Toggle extends React.Component {
   }
 
   handleClick() {
-    this.setState(state => ({
-      isToggleOn: !state.isToggleOn
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
     }));
   }
 
