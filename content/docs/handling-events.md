@@ -29,11 +29,7 @@ React میں یوں لکھا جائے گا
 </button>
 ```
 
-<<<<<<< HEAD
-React  میں Events کا پہلے سے طے شدہ ردعمل بدلنے کے لئے return `false` کرنا کافی نہیں، آپ کو واضح طور پر `preventDefault` کا استعمال کرنا پڑے گا ۔ مثال کے طور پر ایک HTML link کا طے شدہ ردعمل ایک نیا صفحہ کھولتا ہے، جس کو آپ کچھ یوں تبدیل کر سکتے ہیں
-=======
 Another difference is that you cannot return `false` to prevent default behavior in React. You must call `preventDefault` explicitly. For example, with plain HTML, to prevent the default form behavior of submitting, you can write:
->>>>>>> ec2d0adcb44d6394f4e6282d8bf52f0e25dbfec3
 
 ```html
 <form onsubmit="console.log('You clicked submit.'); return false">
