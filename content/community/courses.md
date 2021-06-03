@@ -53,3 +53,4 @@ permalink: community/courses.html
 
 - [Road to React](https://www.roadtoreact.com/)<span dir='rtl'> - React میں عبور حاصل کرنے کے لیے آپ کا سفر ۔</span>
 
+- [Epic React](https://epicreact.dev/) - <span dir='rtl'>اعتماد کے ساتھ اعلی میعار کی پروڈکشن ایپلی کیشنز بنائیں</span> 

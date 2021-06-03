@@ -53,10 +53,14 @@ class Home extends Component {
           title="React &ndash; A JavaScript library for building user interfaces"
           canonicalUrl={createCanonicalUrl('/')}
         />
-        <div dir="rtl"
+        <div
           css={{
             width: '100%',
-            marginTop: 60, // BLM
+            marginTop: 'var(--banner-height-normal)',
+
+            [media.lessThan('small')]: {
+              marginTop: 'var(--banner-height-small)',
+            },
           }}>
           <header
             css={{
