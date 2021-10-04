@@ -25,6 +25,9 @@ permalink: community/courses.html
 
 - [Scrimba: Learn React for free](https://scrimba.com/g/glearnreact)<span dir='rtl'> - React app کی تعمیر میں 48 ویڈیو سبق ۔</span>
 
+- [University of Helsinki: Full Stack Open MOOC](https://fullstackopen.com/en/) - Learn to build web applications with React. Available in English, Spanish, Chinese and Finnish.
+
+
 ## ادا کردہ سبق {#paid-courses}
 
 - [Egghead.io](https://egghead.io/browse/frameworks/react)<span dir="rtl"> - React اور بہت سے دوسرے عنوانات پر مختصر تدریسی ویڈیوز ۔</span>
