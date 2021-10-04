@@ -23,14 +23,10 @@ permalink: community/courses.html
 
 - [Free React Bootcamp](https://tylermcginnis.com/free-react-bootcamp/) <span dir='rtl'> - React کے مفت تربیتی کیمپ کی تین دن کی مفت آن لائن ریکارڈنگ ۔</span>
 
-<<<<<<< HEAD
 - [Scrimba: Learn React for free](https://scrimba.com/g/glearnreact)<span dir='rtl'> - React app کی تعمیر میں 48 ویڈیو سبق ۔</span>
-=======
+
 - [University of Helsinki: Full Stack Open MOOC](https://fullstackopen.com/en/) - Learn to build web applications with React. Available in English, Spanish, Chinese and Finnish.
 
-
-## Paid Courses {#paid-courses}
->>>>>>> 23d03a854ba21aeea0a03a0bd5185e0def9237d6
 
 ## ادا کردہ سبق {#paid-courses}
 
