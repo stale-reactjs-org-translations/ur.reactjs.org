@@ -231,7 +231,7 @@ const Header = ({location}: {location: Location}) => (
                   display: 'none',
                 },
               }}>
-              Languages
+              زبانیں
             </span>
           </Link>
           <Link
