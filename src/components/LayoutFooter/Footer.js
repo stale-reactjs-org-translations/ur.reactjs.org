@@ -88,7 +88,7 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             <MetaTitle onDark={true}>{navFooter.community.title}</MetaTitle>
             <ExternalFooterLink
               href={`https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md`}>
-              Code of Conduct
+              ضابطہ اخلاق
             </ExternalFooterLink>
             {sectionListCommunity.map(section => (
               <FooterLink
@@ -102,10 +102,10 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             <MetaTitle onDark={true}>{navFooter.more.title}</MetaTitle>
             <SectionLinks links={navFooter.more.items} />
             <ExternalFooterLink href="https://opensource.facebook.com/legal/privacy">
-              Privacy
+              رازداری
             </ExternalFooterLink>
             <ExternalFooterLink href="https://opensource.facebook.com/legal/terms">
-              Terms
+              شرائط
             </ExternalFooterLink>
           </FooterNav>
         </div>
@@ -147,7 +147,7 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
               color: colors.subtleOnDark,
               paddingTop: 15,
             }}>
-            {`Copyright © ${new Date().getFullYear()} Facebook Inc.`}
+            {`حق اشاعت © ${new Date().getFullYear()} Facebook Inc.`}
           </p>
         </section>
       </div>
