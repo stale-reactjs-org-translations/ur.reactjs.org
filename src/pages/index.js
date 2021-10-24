@@ -159,7 +159,7 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        شروع کرنے کے
+                        شروع کریں
                       </ButtonLink>
                     </CtaItem>
                     <CtaItem>
