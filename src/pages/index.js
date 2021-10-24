@@ -302,12 +302,12 @@ class Home extends Component {
                 }}>
                 <CtaItem>
                   <ButtonLink to="/docs/getting-started.html" type="primary">
-                    Get Started
+                    شروع کریں
                   </ButtonLink>
                 </CtaItem>
                 <CtaItem>
                   <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                    Take the Tutorial
+                    سبق حاصل کریں
                   </ButtonLink>
                 </CtaItem>
               </Flex>
