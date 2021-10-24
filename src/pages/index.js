@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="React &ndash; یے JavaScript کی لا ئبریری ھے جو یوزر انٹرفیسس بنانے میں کا م آ تی ھے"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div
@@ -141,7 +141,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    یے JavaScript کی لا ئبریری ھے جو یوزر انٹرفیسس بنانے میں کا م آ تی ھے
                   </p>
                   <Flex
                     valign="center"
@@ -159,12 +159,12 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        Get Started
+                        شروع کرنے کے
                       </ButtonLink>
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        Take the Tutorial
+                        سبق حاصل کریں
                       </ButtonLink>
                     </CtaItem>
                   </Flex>
