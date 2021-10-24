@@ -69,8 +69,7 @@ function ErrorResult(props: {|code: ?string, msg: string|}) {
   if (!code) {
     return (
       <p>
-        When you encounter an error, you'll receive a link to this page for that
-        specific error and we'll show you the full error text.
+        جب آپ کو کسی غلطی کا سامنا کرنا پڑتا ہے تو آپ کو اس مخصوص غلطی کے لیے اس صفحے کا ایک لنک ملے گا اور ہم آپ کو غلطی کا مکمل متن دکھائیں گے۔
       </p>
     );
   }
@@ -78,7 +77,7 @@ function ErrorResult(props: {|code: ?string, msg: string|}) {
   return (
     <div>
       <p>
-        <b>The full text of the error you just encountered is:</b>
+        <b>آپ نے جس غلطی کا سامنا کیا اس کا مکمل متن یہ ہے:</b>
       </p>
       <code>
         <b>{urlify(errorMsg)}</b>
