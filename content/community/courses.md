@@ -52,7 +52,11 @@ permalink: community/courses.html
 
 - [Tyler McGinnis](https://tylermcginnis.com/courses)<span dir='rtl'> - Tyler McGinnis کے ساتھ سیکھیں ، جو ماہانہ تربیتی سیشن پیش کرتا ہے۔ ان کورسز میں بنیادی باتیں سیکھنا بھی  شامل ہے ۔</span>
 
+<<<<<<< HEAD
 - [Mastering React](https://codewithmosh.com/p/mastering-react/)<span dir='rtl'> - React لائبریری کے ساتھ انٹرایکٹو ایپلی کیشنز بنائیں ۔</span>
+=======
+- [Tyler McGinnis](https://ui.dev/) - Tyler McGinnis provides access to his courses for a monthly fee. Courses include "React Fundamentals" and "Universal React".
+>>>>>>> 71cc6be6182418dec43b72f2a9ef464619cb7025
 
 - [Road to React](https://www.roadtoreact.com/)<span dir='rtl'> - React میں عبور حاصل کرنے کے لیے آپ کا سفر ۔</span>
 
