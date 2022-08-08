@@ -92,15 +92,18 @@ class Toggle extends React.Component {
 
 یہ طرزِ عمل React کی وجہ سے نہیں ہے، یے [JavaScript functions کا ایک بنیادی پہلو ہے](https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/) ۔ عموماً اگر آپ کسی طریقے (method) کو بنا () کے مخاطب کرتے ہیں جیسے مثلاً `onClick={this.handleClick}`، تو آپ کو اسے bind کرنا چاہیے
 
+<<<<<<< HEAD
 اگر `bind` کا استعمال آپ کو دشوار لگتا ہے تو آپ دو طریقے اختیار کر سکتے ہیں ۔ اگر آپ تجرباتی [public class fields syntax](https://babeljs.io/docs/plugins/transform-class-properties/) کا استعمال کر رہے ہیں تو آپ class fields سے callbacks کو صحیح طریقہ سے bind کر سکتے ہیں
+=======
+If calling `bind` annoys you, there are two ways you can get around this. You can use [public class fields syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields#public_instance_fields) to correctly bind callbacks:
+>>>>>>> 4808a469fa782cead9802619b0341b27b342e2d3
 
 ```js{2-6}
 class LoggingButton extends React.Component {
   // This syntax ensures `this` is bound within handleClick.
-  // Warning: this is *experimental* syntax.
   handleClick = () => {
     console.log('this is:', this);
-  }
+  };
 
   render() {
     return (
