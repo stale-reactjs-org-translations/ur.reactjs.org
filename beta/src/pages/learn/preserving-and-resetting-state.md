@@ -27,7 +27,7 @@ React also uses tree structures to manage and model the UI you make. React makes
 
 <Diagram name="preserving_state_dom_tree" height={193} width={864} alt="Diagram with three sections arranged horizontally. In the first section, there are three rectangles stacked vertically, with labels 'Component A', 'Component B', and 'Component C'. Transitioning to the next pane is an arrow with the React logo on top labeled 'React'. The middle section contains a tree of components, with the root labeled 'A' and two children labeled 'B' and 'C'. The next section is again transitioned using an arrow with the React logo on top labeled 'React'. The third and final section is a wireframe of a browser, containing a tree of 8 nodes, which has only a subset highlighted (indicating the subtree from the middle section).">
 
-From components, React creates a UI Tree which React DOM uses to render the DOM. 
+From components, React creates a UI tree which React DOM uses to render the DOM
 
 </Diagram>
 
@@ -108,7 +108,7 @@ Here's how these look as a tree:
 
 <Diagram name="preserving_state_tree" height={248} width={395} alt="Diagram of a tree of React components. The root node is labeled 'div' and has two children. Each of the children are labeled 'Counter' and both contain a state bubble labeled 'count' with value 0.">
 
-React Tree
+React tree
 
 </Diagram>
 
@@ -383,7 +383,7 @@ When you tick or clear the checkbox, the counter state does not get reset. Wheth
 
 <Diagram name="preserving_state_same_component" height={461} width={600} alt="Diagram with two sections separated by an arrow transitioning between them. Each section contains a layout of components with a parent labeled 'App' containing a state bubble labeled isFancy. This component has one child labeled 'div', which leads to a prop bubble containing isFancy (highlighted in purple) passed down to the only child. The last child is labeled 'Counter' and contains a state bubble with label 'count' and value 3 in both diagrams. In the left section of the diagram, nothing is highlighted and the isFancy parent state value is false. In the right section of the diagram, the isFancy parent state value has changed to true and it is highlighted in yellow, and so is the props bubble below, which has also changed its isFancy value to true.">
 
-Since Counter is always in the same position, the count does not reset, event when isFancy state in the parent changes.
+Updating the `App` state does not reset the `Counter` because `Counter` stays in the same position
 
 </Diagram>
 
@@ -583,7 +583,7 @@ Here, you switch between _different_ component types at the same position. Initi
 
 <Diagram name="preserving_state_diff_pt1" height={290} width={753} alt="Diagram with three sections, with an arrow transitioning each section in between. The first section contains a React component labeled 'div' with a single child labeled 'Counter' containing a state bubble labeled 'count' with value 3. The middle section has the same 'div' parent, but the child component has now been deleted, indicated by a yellow 'proof' image. The third section has the same 'div' parent again, now with a new child labeled 'p', highlighted in yellow.">
 
-When Counter changes to p, first the Counter is unmounted, then the p is mounted.
+When `Counter` changes to `p`, the `Counter` is deleted and the `p` is added
 
 </Diagram>
 
@@ -593,7 +593,7 @@ When Counter changes to p, first the Counter is unmounted, then the p is mounted
 
 <Diagram name="preserving_state_diff_pt2" height={290} width={753} alt="Diagram with three sections, with an arrow transitioning each section in between. The first section contains a React component labeled 'p'. The middle section has the same 'div' parent, but the child component has now been deleted, indicated by a yellow 'proof' image. The third section has the same 'div' parent again, now with a new child labeled 'Counter' containing a state bubble labeled 'count' with value 0, highlighted in yellow.">
 
-When switching back, first the p is unmounted, then the Counter is mounted.
+When switching back, the `p` is deleted and the `Counter` is added
 
 </Diagram>
 
@@ -692,9 +692,9 @@ The counter state gets reset when you click the checkbox. Although you render a 
 
 <DiagramGroup>
 
-<Diagram name="preserving_state_diff_same_pt1" height={362} width={752} alt="Diagram with three sections, with an arrow transitioning each section in between. The first section contains a React component labeled 'div' with a single child labeled 'section', which has a single child labeled 'Counter' containing a state bubble labeled 'count' with value 3. The middle section has the same 'div' parent, but the child components have now been deleted, indicated by a yellow 'proof' image. The third section has the same 'div' parent again, now with a new child labeled 'div', highlighted in yellow, also with a new child labeled 'Counter' containing a state bubble labeled 'count' with value 0, all highlighted in yellow.">
+<Diagram name="preserving_state_diff_same_pt1" height={350} width={794} alt="Diagram with three sections, with an arrow transitioning each section in between. The first section contains a React component labeled 'div' with a single child labeled 'section', which has a single child labeled 'Counter' containing a state bubble labeled 'count' with value 3. The middle section has the same 'div' parent, but the child components have now been deleted, indicated by a yellow 'proof' image. The third section has the same 'div' parent again, now with a new child labeled 'div', highlighted in yellow, also with a new child labeled 'Counter' containing a state bubble labeled 'count' with value 0, all highlighted in yellow.">
 
-When section changes to div, first the section is unmounted then the new div is mounted.
+When `section` changes to `div`, the `section` is deleted and the new `div` is added
 
 </Diagram>
 
@@ -702,9 +702,9 @@ When section changes to div, first the section is unmounted then the new div is 
 
 <DiagramGroup>
 
-<Diagram name="preserving_state_diff_same_pt2" height={362} width={752} alt="Diagram with three sections, with an arrow transitioning each section in between. The first section contains a React component labeled 'div' with a single child labeled 'div', which has a single child labeled 'Counter' containing a state bubble labeled 'count' with value 0. The middle section has the same 'div' parent, but the child components have now been deleted, indicated by a yellow 'proof' image. The third section has the same 'div' parent again, now with a new child labeled 'section', highlighted in yellow, also with a new child labeled 'Counter' containing a state bubble labeled 'count' with value 0, all highlighted in yellow.">
+<Diagram name="preserving_state_diff_same_pt2" height={350} width={794} alt="Diagram with three sections, with an arrow transitioning each section in between. The first section contains a React component labeled 'div' with a single child labeled 'div', which has a single child labeled 'Counter' containing a state bubble labeled 'count' with value 0. The middle section has the same 'div' parent, but the child components have now been deleted, indicated by a yellow 'proof' image. The third section has the same 'div' parent again, now with a new child labeled 'section', highlighted in yellow, also with a new child labeled 'Counter' containing a state bubble labeled 'count' with value 0, all highlighted in yellow.">
 
-When switching back, first the div is unmounted then the new section is mounted.
+When switching back, the `div` is deleted and the new `section` is added
 
 </Diagram>
 
@@ -917,7 +917,7 @@ h1 {
 
 <Diagram name="preserving_state_diff_position_p1" height={375} width={504} alt="Diagram with a tree of React components. The parent is labeled 'Scoreboard' with a state bubble labeled isPlayerA with value 'true'. The only child, arranged to the left, is labeled Counter with a state bubble labeled 'count' and value 0. All of the left child is highlighted in yellow, indicating it was added.">
 
-Initial State
+Initial state
 
 </Diagram>
 
@@ -1258,7 +1258,7 @@ No matter which strategy you pick, a chat _with Alice_ is conceptually distinct 
 
 <Challenges>
 
-### Fix disappearing input text {/*fix-disappearing-input-text*/}
+#### Fix disappearing input text {/*fix-disappearing-input-text*/}
 
 This example shows a message when you press the button. However, pressing the button also accidentally resets the input. Why does this happen? Fix it so that pressing the button does not reset the input text.
 
@@ -1409,7 +1409,7 @@ This way, `Form` is always the second child, so it stays in the same position an
 
 </Solution>
 
-### Swap two form fields {/*swap-two-form-fields*/}
+#### Swap two form fields {/*swap-two-form-fields*/}
 
 This form lets you enter first and last name. It also has a checkbox controlling which field goes first. When you tick the checkbox, the "Last name" field will appear before the "First name" field.
 
@@ -1543,7 +1543,7 @@ label { display: block; margin: 10px 0; }
 
 </Solution>
 
-### Reset a detail form {/*reset-a-detail-form*/}
+#### Reset a detail form {/*reset-a-detail-form*/}
 
 This is an editable contact list. You can edit the selected contact's details and then either press "Save" to update it, or "Reset" to undo your changes.
 
@@ -1852,7 +1852,7 @@ button {
 
 </Solution>
 
-### Clear an image while it's loading {/*clear-an-image-while-its-loading*/}
+#### Clear an image while it's loading {/*clear-an-image-while-its-loading*/}
 
 When you press "Next", the browser starts loading the next image. However, because it's displayed in the same `<img>` tag, by default you would still see the previous image until the next one loads. This may be undesirable if it's important for the text to always match the image. Change it so that the moment you press "Next," the previous image immediately clears.
 
@@ -1996,7 +1996,7 @@ img { width: 150px; height: 150px; }
 
 </Solution>
 
-### Fix misplaced state in the list {/*fix-misplaced-state-in-the-list*/}
+#### Fix misplaced state in the list {/*fix-misplaced-state-in-the-list*/}
 
 In this list, each `Contact` has state that determines whether "Show email" has been pressed for it. Press "Show email" for Alice, and then tick the "Show in reverse order" checkbox. You will notice that it's _Taylor's_ email that is expanded now, but Alice's--which has moved to the bottom--appears collapsed.
 
