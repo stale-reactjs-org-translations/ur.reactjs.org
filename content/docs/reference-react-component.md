@@ -52,7 +52,7 @@ These methods are called in the following order when an instance of a component 
 
 >Note:
 >
->These methods are considered legacy and you should [avoid them](/blog/2018/03/27/update-on-async-rendering.html) in new code:
+>This method is considered legacy and you should [avoid it](/blog/2018/03/27/update-on-async-rendering.html) in new code:
 >
 >- [`UNSAFE_componentWillMount()`](#unsafe_componentwillmount)
 
@@ -507,7 +507,7 @@ There are just two of them: `setState()` and `forceUpdate()`.
 ### `setState()` {#setstate}
 
 ```javascript
-setState(updater, [callback])
+setState(updater[, callback])
 ```
 
 `setState()` enqueues changes to the component state and tells React that this component and its children need to be re-rendered with the updated state. This is the primary method you use to update the user interface in response to event handlers and server responses.
