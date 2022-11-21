@@ -30,7 +30,13 @@ permalink: community/courses.html
 
 ## ادا کردہ سبق {#paid-courses}
 
+<<<<<<< HEAD
 - [Egghead.io](https://egghead.io/browse/frameworks/react)<span dir="rtl"> - React اور بہت سے دوسرے عنوانات پر مختصر تدریسی ویڈیوز ۔</span>
+=======
+- [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer) - Launch your career as a front-end developer. Build job-ready skills for an in-demand career and earn a credential from Meta. No degree or prior experience required to get started.
+
+- [Egghead.io](https://egghead.io/browse/frameworks/react) - Short instructional videos on React and many other topics.
+>>>>>>> e50e5634cca3c7cdb92c28666220fe3b61e9aa30
 
 - [Frontend Masters](https://frontendmasters.com/courses/)<span dir='rtl'> - React لائبریری اور دیگر Frontend فریم ورک کو سیکھنے کے لئے ویڈیو کورسز کی تربیت کرنا ۔</span>
 
