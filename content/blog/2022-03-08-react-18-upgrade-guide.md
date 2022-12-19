@@ -259,7 +259,7 @@ You can also set the flag to `false` to tell React that `act` isn't needed. This
 
 Eventually, we expect testing libraries will configure this for you automatically. For example, the [next version of React Testing Library has built-in support for React 18](https://github.com/testing-library/react-testing-library/issues/509#issuecomment-917989936) without any additional configuration.
 
-[More background on the the `act` testing API and related changes](https://github.com/reactwg/react-18/discussions/102) is available in the working group.
+[More background on the `act` testing API and related changes](https://github.com/reactwg/react-18/discussions/102) is available in the working group.
 
 ## Dropping Support for Internet Explorer {#dropping-support-for-internet-explorer}
 
@@ -296,7 +296,7 @@ If you need to support Internet Explorer we recommend you stay with React 17.
 ### React DOM Server {#react-dom-server}
 
 * **`renderToString`:** Will no longer error when suspending on the server. Instead, it will emit the fallback HTML for the closest `<Suspense>` boundary and then retry rendering the same content on the client. It is still recommended that you switch to a streaming API like `renderToPipeableStream` or `renderToReadableStream` instead.
-* **`renderToStaticMarkup`:** Will no longer error when suspending on the server. Instead, it will emit the fallback HTML for the closest `<Suspense>` boundary and retry rendering on the client.
+* **`renderToStaticMarkup`:** Will no longer error when suspending on the server. Instead, it will emit the fallback HTML for the closest `<Suspense>` boundary.
 
 ## Changelog {#changelog}
 
