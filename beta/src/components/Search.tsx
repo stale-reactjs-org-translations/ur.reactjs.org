@@ -31,7 +31,7 @@ function Hit({hit, children}: any) {
 function Kbd(props: {children?: React.ReactNode}) {
   return (
     <kbd
-      className="h-6 w-6 border border-transparent mr-1 bg-wash dark:bg-wash-dark text-gray-30 align-middle p-0 inline-flex justify-center items-center  text-xs text-center rounded"
+      className="h-6 w-6 border border-transparent ml-1 bg-wash dark:bg-wash-dark text-gray-30 align-middle p-0 inline-flex justify-center items-center  text-xs text-center rounded"
       {...props}
     />
   );
@@ -148,18 +148,18 @@ export function Search({
       <button
         aria-label="Search"
         type="button"
-        className="inline-flex md:hidden items-center text-lg p-1 ml-4 lg:ml-6"
+        className="inline-flex md:hidden items-center text-lg p-1 mr-4 lg:mr-6"
         onClick={onOpen}>
         <IconSearch className="align-middle" />
       </button>
 
       <button
         type="button"
-        className="hidden md:flex relative pl-4 pr-1 py-1 h-10 bg-secondary-button dark:bg-gray-80 outline-none focus:ring focus:outline-none betterhover:hover:bg-opacity-80 pointer items-center shadow-inner text-left w-full text-gray-30 rounded-md align-middle text-sm"
+        className="hidden md:flex relative pr-4 pl-1 py-1 h-10 bg-secondary-button dark:bg-gray-80 outline-none focus:ring focus:outline-none betterhover:hover:bg-opacity-80 pointer items-center shadow-inner text-left w-full text-gray-30 rounded-md align-middle text-sm"
         onClick={onOpen}>
-        <IconSearch className="mr-3 align-middle text-gray-30 shrink-0 group-betterhover:hover:text-gray-70" />
-        Search
-        <span className="ml-auto hidden sm:flex item-center">
+        <IconSearch className="ml-3 align-middle text-gray-30 shrink-0 group-betterhover:hover:text-gray-70" />
+        تلاش کریں
+        <span className="mr-auto hidden sm:flex item-center">
           <Kbd>⌘</Kbd>
           <Kbd>K</Kbd>
         </span>

@@ -196,26 +196,26 @@ export default function Nav() {
         'sticky top-0 lg:bottom-0 lg:h-screen flex flex-col',
         isOpen && 'h-screen'
       )}>
-      <nav className="items-center w-full flex lg:block justify-between bg-wash dark:bg-wash-dark pt-0 lg:pt-4 pr-5 lg:px-5 z-50">
+      <nav className="items-center w-full flex lg:block justify-between bg-wash dark:bg-wash-dark pt-0 lg:pt-4 pl-5 lg:px-5 z-50">
         <div className="xl:w-full xl:max-w-xs flex items-center">
           <button
             type="button"
             aria-label="Menu"
             onClick={() => setIsOpen(!isOpen)}
             className={cn('flex lg:hidden items-center h-full px-4', {
-              'text-link dark:text-link-dark mr-0': isOpen,
+              'text-link dark:text-link-dark ml-0': isOpen,
             })}>
             {isOpen ? <IconClose /> : <IconHamburger />}
           </button>
           <NextLink href="/">
-            <a className="inline-flex text-l font-normal items-center text-primary dark:text-primary-dark py-1 mr-0 sm:mr-3 whitespace-nowrap">
-              <Logo className="text-sm mr-2 w-8 h-8 text-link dark:text-link-dark" />
-              React Docs
+            <a className="inline-flex text-l font-normal items-center text-primary dark:text-primary-dark py-1 ml-0 sm:ml-3 whitespace-nowrap">
+              <Logo className="text-sm ml-2 w-8 h-8 text-link dark:text-link-dark" />
+              React دستاویزات
             </a>
           </NextLink>
-          <div className="lg:w-full leading-loose hidden sm:flex flex-initial items-center h-auto pr-5 lg:pr-5 pt-0.5">
+          <div className="lg:w-full leading-loose hidden sm:flex flex-initial items-center h-auto pl-5 lg:pl-5 pt-0.5">
             <div className="px-1 mb-px bg-highlight dark:bg-highlight-dark rounded uppercase text-link dark:text-link-dark font-bold tracking-wide text-xs whitespace-nowrap">
-              Beta
+              تجرباتی
             </div>
           </div>
           <div className="block dark:hidden">
@@ -225,7 +225,7 @@ export default function Nav() {
               onClick={() => {
                 window.__setPreferredTheme('dark');
               }}
-              className="hidden lg:flex items-center h-full pr-2">
+              className="hidden lg:flex items-center h-full pl-2">
               {darkIcon}
             </button>
           </div>
@@ -236,7 +236,7 @@ export default function Nav() {
               onClick={() => {
                 window.__setPreferredTheme('light');
               }}
-              className="hidden lg:flex items-center h-full pr-2">
+              className="hidden lg:flex items-center h-full pl-2">
               {lightIcon}
             </button>
           </div>
@@ -250,10 +250,10 @@ export default function Nav() {
           <NavLink
             href="/learn"
             isActive={section === 'learn' || section === 'home'}>
-            Learn
+            سیکھیں
           </NavLink>
           <NavLink href="/reference/react" isActive={section === 'reference'}>
-            Reference
+            حوالہ جات
           </NavLink>
         </div>
         <div className="flex my-4 h-10 mx-0 w-full lg:hidden justify-end lg:max-w-sm">
@@ -262,7 +262,7 @@ export default function Nav() {
             aria-label="Give feedback"
             type="button"
             className={cn(
-              'inline-flex lg:hidden items-center rounded-full px-1.5 ml-4 lg:ml-6 relative top-px',
+              'inline-flex lg:hidden items-center rounded-full px-1.5 mr-4 lg:mr-6 relative top-px',
               {
                 'bg-card dark:bg-card-dark': showFeedback,
               }
@@ -277,7 +277,7 @@ export default function Nav() {
               onClick={() => {
                 window.__setPreferredTheme('dark');
               }}
-              className="flex lg:hidden items-center p-1 h-full ml-4 lg:ml-6">
+              className="flex lg:hidden items-center p-1 h-full mr-4 lg:mr-6">
               {darkIcon}
             </button>
           </div>
@@ -303,7 +303,7 @@ export default function Nav() {
               onClick={() => {
                 window.__setPreferredTheme('light');
               }}
-              className="flex lg:hidden items-center p-1 h-full ml-4 lg:ml-6">
+              className="flex lg:hidden items-center p-1 h-full mr-4 lg:mr-6">
               {lightIcon}
             </button>
           </div>
@@ -336,7 +336,7 @@ export default function Nav() {
           <nav
             role="navigation"
             style={{'--bg-opacity': '.2'} as React.CSSProperties} // Need to cast here because CSS vars aren't considered valid in TS types (cuz they could be anything)
-            className="w-full lg:h-auto grow pr-0 lg:pr-5 pt-6 lg:py-6 md:pt-4 lg:pt-4 scrolling-touch scrolling-gpu">
+            className="w-full lg:h-auto grow pl-0 lg:pl-5 pt-6 lg:py-6 md:pt-4 lg:pt-4 scrolling-touch scrolling-gpu">
             {/* No fallback UI so need to be careful not to suspend directly inside. */}
             <Suspense fallback={null}>
               <SidebarRouteTree

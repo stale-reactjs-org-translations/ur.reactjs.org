@@ -60,12 +60,12 @@ export function SidebarLink({
         target={target}
         aria-current={selected ? 'page' : undefined}
         className={cn(
-          'p-2 pr-2 w-full rounded-none lg:rounded-r-lg text-left hover:bg-gray-5 dark:hover:bg-gray-80 relative flex items-center justify-between',
+          'p-2 pl-2 w-full rounded-none lg:rounded-r-lg text-left hover:bg-gray-5 dark:hover:bg-gray-80 relative flex items-center justify-between',
           {
             'my-6': heading,
             'text-primary dark:text-primary-dark': heading && !isBreadcrumb,
-            'text-sm pl-6': level > 0,
-            'pl-5': level < 2,
+            'text-sm pr-6': level > 0,
+            'pr-5': level < 2,
             'text-base font-bold': level === 0,
             'dark:text-primary-dark text-primary ': level === 0 && !selected,
             'text-base text-link dark:text-link-dark': level === 1 && selected,
@@ -87,11 +87,11 @@ export function SidebarLink({
         </span>
         {isExpanded != null && !heading && !hideArrow && (
           <span
-            className={cn('pr-1', {
+            className={cn('pl-1', {
               'text-link': isExpanded,
               'text-gray-30': !isExpanded,
             })}>
-            <IconNavArrow displayDirection={isExpanded ? 'down' : 'right'} />
+            <IconNavArrow displayDirection={isExpanded ? 'down' : 'left'} />
           </span>
         )}
       </a>
