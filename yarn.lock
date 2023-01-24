@@ -9272,9 +9272,9 @@ jimp@^0.14.0:
     regenerator-runtime "^0.13.3"
 
 jpeg-js@^0.4.0:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.4.2.tgz#8b345b1ae4abde64c2da2fe67ea216a114ac279d"
-  integrity sha512-+az2gi/hvex7eLTMTlbRLOhH6P6WFdk2ITI8HJsaH2VqYO0I594zXSYEP+tf4FW+8Cy68ScDXoAsQdyQanv3sw==
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.4.4.tgz#a9f1c6f1f9f0fa80cdb3484ed9635054d28936aa"
+  integrity sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s1Wzd+dg==
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -15309,15 +15309,9 @@ uri-js@^4.2.2:
     punycode "^2.1.0"
 
 urijs@^1.19.2:
-<<<<<<< HEAD
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.2.tgz#f9be09f00c4c5134b7cb3cf475c1dd394526265a"
-  integrity sha512-s/UIq9ap4JPZ7H1EB5ULo/aOUbWqfDi7FKzMC2Nz+0Si8GiT1rIEaprt8hy3Vy2Ex2aJPpOQv4P4DuOZ+K1c6w==
-=======
   version "1.19.10"
   resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.10.tgz#8e2fe70a8192845c180f75074884278f1eea26cb"
   integrity sha512-EzauQlgKuJgsXOqoMrCiePBf4At5jVqRhXykF3Wfb8ZsOBMxPcfiVBcsHXug4Aepb/ICm2PIgqAUGMelgdrWEg==
->>>>>>> 1d21630e126af0f4c04ff392934dcee80fc54892
 
 urix@^0.1.0:
   version "0.1.0"
@@ -15348,15 +15342,9 @@ url-parse-lax@^3.0.0:
     prepend-http "^2.0.0"
 
 url-parse@^1.1.8, url-parse@^1.4.3:
-<<<<<<< HEAD
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
-=======
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
   integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
->>>>>>> 1d21630e126af0f4c04ff392934dcee80fc54892
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
