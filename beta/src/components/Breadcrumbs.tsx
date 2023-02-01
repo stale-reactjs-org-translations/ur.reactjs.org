@@ -21,7 +21,7 @@ function Breadcrumbs() {
                     {crumb.title}
                   </a>
                 </Link>
-                <span className="inline-block mr-1 text-link dark:text-link-dark text-lg">
+                <span className="inline-block mr-1 text-link dark:text-link-dark text-lg rotate-180">
                   <svg
                     width="20"
                     height="20"
