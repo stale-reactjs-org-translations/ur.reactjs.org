@@ -1,25 +1,25 @@
 ---
-title: Installation
+title: تنصیب
 ---
 
 <Intro>
 
-React has been designed from the start for gradual adoption. You can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to an HTML page, or start a complex React-powered app, this section will help you get started.
+React کو بتدریج اپنانے کے لیے شروع سے ہی ڈیزائن کیا گیا ہے۔ آپ اپنی ضرورت کے مطابق کم یا زیادہ React استعمال کر سکتے ہیں۔ چاہے آپ React کا ذائقہ حاصل کرنا چاہتے ہیں، HTML صفحہ میں کچھ تعاملات شامل کرنا چاہتے ہیں، یا ایک پیچیدہ React سے چلنے والی ایپ شروع کرنا چاہتے ہیں، یہ سیکشن شروع کرنے میں آپ کی مدد کرے گا۔
 
 </Intro>
 
 <YouWillLearn isChapter={true}>
 
-* [How to add React to an HTML page](/learn/add-react-to-a-website)
-* [How to start a standalone React project](/learn/start-a-new-react-project)
-* [How to set up your editor](/learn/editor-setup)
-* [How to install React Developer Tools](/learn/react-developer-tools)
+* [HTML صفحہ پر React کیسے شامل کریں۔](/learn/add-react-to-a-website)
+* [تنہا React پروجیکٹ کیسے شروع کریں۔](/learn/start-a-new-react-project)
+* [اپنے ایڈیٹر کو کیسے ترتیب دیں۔](/learn/editor-setup)
+* [React ڈویلپر ٹولز کو کیسے انسٹال کریں۔](/learn/react-developer-tools)
 
 </YouWillLearn>
 
-## Try React {/*try-react*/}
+## React کوشش کرو {/*try-react*/}
 
-You don't need to install anything to play with React. Try editing this sandbox!
+React کے ساتھ کھیلنے کے لیے آپ کو کچھ بھی انسٹال کرنے کی ضرورت نہیں ہے۔ اس سینڈ باکس میں ترمیم کرنے کی کوشش کریں!
 
 <Sandpack>
 
@@ -35,23 +35,22 @@ export default function App() {
 
 </Sandpack>
 
-You can edit it directly or open it in a new tab by pressing the "Fork" button in the upper right corner.
+آپ اسے براہ راست ترمیم کر سکتے ہیں یا اوپری دائیں کونے میں "فورک" بٹن دبا کر اسے نئے ٹیب میں کھول سکتے ہیں۔
 
-Most pages in the React documentation contain sandboxes like this. Outside of the React documentation, there are many online sandboxes that support React: for example, [CodeSandbox](https://codesandbox.io/s/new), [StackBlitz](https://stackblitz.com/fork/react), or [CodePen.](https://codepen.io/pen?&editors=0010&layout=left&prefill_data_id=3f4569d1-1b11-4bce-bd46-89090eed5ddb)
+React دستاویزات میں زیادہ تر صفحات میں اس طرح کے سینڈ باکس ہوتے ہیں۔ React دستاویزات کے باہر، بہت سے آن لائن سینڈ باکسز ہیں جو React کو سپورٹ کرتے ہیں: مثال کے طور پر، [CodeSandbox](https://codesandbox.io/s/new)، [StackBlitz](https://stackblitz.com/fork/react )، یا [CodePen.](https://codepen.io/pen?&editors=0010&layout=left&prefill_data_id=3f4569d1-1b11-4bce-bd46-89090eed5ddb)
 
-### Try React locally {/*try-react-locally*/}
+### مقامی طور پر React کو آزمائیں۔ {/*try-react-locally*/}
 
-To try React locally on your computer, [download this HTML page.](https://raw.githubusercontent.com/reactjs/reactjs.org/main/static/html/single-file-example.html) Open it in your editor and in your browser!
+اپنے کمپیوٹر پر مقامی طور پر React کو آزمانے کے لیے، [یہ HTML صفحہ ڈاؤن لوڈ کریں۔](https://raw.githubusercontent.com/reactjs/reactjs.org/main/static/html/single-file-example.html) اسے اپنے کمپیوٹر میں کھولیں۔ ایڈیٹر اور آپ کے براؤزر میں!
 
-## Add React to a page {/*add-react-to-a-page*/}
+## کسی صفحے پر React شامل کریں۔ {/*add-react-to-a-page*/}
 
-If you're working with an existing site and need to add a little bit of React, you can [add React with a script tag.](/learn/add-react-to-a-website)
+اگر آپ کسی موجودہ سائٹ کے ساتھ کام کر رہے ہیں اور آپ کو تھوڑا سا React شامل کرنے کی ضرورت ہے، تو آپ [اسکرپٹ ٹیگ کے ساتھ React شامل کریں۔](/learn/add-react-to-a-website)
 
-## Start a React project {/*start-a-react-project*/}
+## ایک React پروجیکٹ شروع کریں۔ {/*start-a-react-project*/}
 
-If you're ready to [start a standalone project](/learn/start-a-new-react-project) with React, you can set up a minimal toolchain for a pleasant developer experience. You can also start with a framework that makes a lot of decisions for you out of the box.
+اگر آپ React کے ساتھ [اسٹینڈ اسٹون پروجیکٹ شروع کریں](/learn/start-a-new-react-project) کے لیے تیار ہیں، تو آپ ڈویلپر کے خوشگوار تجربے کے لیے کم سے کم ٹول چین ترتیب دے سکتے ہیں۔ آپ ایک ایسے فریم ورک کے ساتھ بھی شروع کر سکتے ہیں جو آپ کے لیے بہت سارے فیصلے باکس سے باہر کرتا ہے۔
 
-## Next steps {/*next-steps*/}
+## اگلے مراحل {/*next-steps*/}
 
-Head to the [Quick Start](/learn) guide for a tour of the most important React concepts you will encounter every day.
-
+سب سے اہم React کے تصورات کے دورے کے لیے [کوئیک اسٹارٹ](/learn) گائیڈ کی طرف جائیں جن کا آپ کو ہر روز سامنا ہوگا۔
